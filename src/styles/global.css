@@ -17,7 +17,7 @@ body{
     border-radius: 5px;
     font-weight: bold;
     transition: 0.4s;
-    font-size: 0.8rem;
+    font-size: 1.3rem;
     white-space: nowrap;
 }
 
@@ -26,8 +26,7 @@ body{
     object-fit: fill;
 }
 
-.logo{
-}
+
 .list > ul > li > a:hover, .cart:hover{
     background-color: #53DDDF !important; 
 }
