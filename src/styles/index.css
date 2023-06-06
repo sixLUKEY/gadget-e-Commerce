@@ -1,4 +1,8 @@
-
+*{
+    box-sizing: border-box;
+ }
+ ::-webkit-scrollbar {
+     display: none;}
 i{
     color: #53DDDF;
 }
@@ -28,8 +32,3 @@ a{
     color:#52c5bd;
     opacity:1;
 }
-*{
-   box-sizing: border-box;
-}
-::-webkit-scrollbar {
-    display: none;}
