@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 i{
     color: #53DDDF;
 }
@@ -27,4 +28,10 @@ a{
     background-color:white;
     color:#52c5bd;
     opacity:1;
+=======
+*{
+   box-sizing: border-box;
+}::-webkit-scrollbar {
+    display: none; 
+>>>>>>> 152a186ca68a022a1cf6d7752c24a61bc8b1e5b2
 }
