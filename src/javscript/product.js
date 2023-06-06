@@ -7,6 +7,7 @@ const products = [
         desc: "Intel Core i5 1135G7 Processor, 3 Year Warranty (Upon Registration, Windows 10 Pro",
         price: 24999,
         category: "Laptops",
+        quantity: 20,
     },
     {
         id: 2,
@@ -15,6 +16,7 @@ const products = [
         desc: "Intel Core i5-1135G7,  8GB LPDDR4X, 256GB NVME SSD",
         price: 19019,
         category: "Laptops",
+        quantity: 20,
     },
     {
         id: 3,
@@ -23,6 +25,7 @@ const products = [
         desc: "1 TB, Apple M1 Pro, macOS 12.0, Monterey, 16 GB RAM",
         price: 50162,
         category: "Laptops",
+        quantity: 20,
     },
     {
         id: 4,
@@ -31,6 +34,7 @@ const products = [
         desc: "Core i7-1165G7, 8GB DDR4 (OB), 512GB NVME SSD",
         price: 17499,
         category: "Laptops",
+        quantity: 20,
     },
     {
         id: 5,
@@ -39,6 +43,7 @@ const products = [
         desc: "16GB, 1TB SSD, Intel® Core™ i7-11370H, Windows® 11 Home",
         price: 30000,
         category: "Laptops",
+        quantity: 20,
     },
     {
         id: 6,
@@ -47,6 +52,7 @@ const products = [
         desc: "8.0 MP, 2GB RAM + 32GB ROM, microSDXC",
         price: 2499.00,
         category: "Cellphones",
+        quantity: 20,
     },
     {
         id: 7,
@@ -55,6 +61,7 @@ const products = [
         desc: "64GB,  6.1 inch, True Tone display",
         price: 899.00,
         category: "Cellphones",
+        quantity: 20,
     },
     {
         id: 8,
@@ -63,6 +70,7 @@ const products = [
         desc: "256 GB, 12.0 MP, Hexa Core",
         price: 18303.89,
         category: "Cellphones",
+        quantity: 14,
     },
     {
         id: 9,
@@ -71,6 +79,7 @@ const products = [
         desc: "3 GB RAM, Wireless, Android 11 (Go edition), ",
         price: 45,
         category: "Cellphones",
+        quantity: 21,
     },
     {
         id: 10,
@@ -79,6 +88,7 @@ const products = [
         desc: "Dual SIM, 256 GB Storage, 8.0 MP, 50.0 MP, 16.0 MP, 48.0 MP, 2.0 MP",
         price: 45,
         category: "Cellphones",
+        quantity: 17,
     },
     {
         id: 11,
@@ -87,6 +97,7 @@ const products = [
         desc: "144Hz Refresh Rate, 1ms response time Mystic Light, UWQHD High Resolution",
         price: 12000.00,
         category: "Accessories",
+        quantity: 7,
     },
     {
         id: 12,
@@ -95,6 +106,7 @@ const products = [
         desc: "Five RGB Lighting Zone, IP42 Protection, iCUE Compatible",
         price: 750,
         category: "Accessories",
+        quantity: 10,
     },
     {
         id: 13,
@@ -103,6 +115,7 @@ const products = [
         desc: "Wired, Black, Red",
         price: 600,
         category: "Accessories",
+        quantity: 20,
     },
     {
         id: 14,
@@ -111,6 +124,7 @@ const products = [
         desc: "120mm Cooler, RGB Fans, Compatible With Intel AND AMD CPU",
         price: 1600,
         category: "Accessories",
+        quantity: 20,
     },
     {
         id: 15,
@@ -119,6 +133,7 @@ const products = [
         desc: "3.5mm Jack",
         price: 1900,
         category: "Accessories",
+        quantity: 11,
     },
 ];
 // end of the array of object
