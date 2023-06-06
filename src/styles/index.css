@@ -1,0 +1,37 @@
+
+<<<<<<< HEAD
+i{
+    color: #53DDDF;
+}
+footer {
+    background-color:#33658A;
+}
+a{
+    text-decoration: none;
+}
+.custom-btn {
+    text-decoration:none;
+    text-transform:uppercase;
+    font-weight:600;
+    font-size:20px;
+    width:150px;
+    background-color:#53DDDF;
+    height:50px;
+    padding:10px 10px 10px 10px;
+    color:#fff;
+    transition:  linear 0.5s;
+    text-align:center;
+    border-radius:15px;
+}
+.custom-btn:hover {
+    background-color:rgb(255, 255, 255);
+    background-color:white;
+    color:#52c5bd;
+    opacity:1;
+=======
+*{
+   box-sizing: border-box;
+}::-webkit-scrollbar {
+    display: none; 
+>>>>>>> 152a186ca68a022a1cf6d7752c24a61bc8b1e5b2
+}
