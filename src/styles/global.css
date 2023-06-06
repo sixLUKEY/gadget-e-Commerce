@@ -58,11 +58,64 @@ nav{
 }
 
 .modal-content{
-    top: 0;
-    right: 0;
-    position: absolute;
     height: 100vh;
     z-index: 999;
     width: 400px;
-    background-color: rgb(210, 210, 210);
+    background-color: white;
+    transform: translateX(100%);
 }
+
+.modal-dialog{
+    margin: 0;
+    top: 0;
+    right: 0;
+    position: absolute;
+    animation: fadeIn 0.2s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+.modalButton, .modalButtonClose{
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 7px;
+    transition: 0.4s;
+}
+
+.modalButton:hover{
+    background-color: #53DDDF;
+    scale: 1.1;
+    filter: drop-shadow(-2px 4px 5px #00000088);
+}
+
+.modalButtonClose:hover{
+    background-color: #130701;
+    color: white;
+    scale: 1.1;
+    filter: drop-shadow(-2px 4px 5px #00000088);
+}
+
+.closeButton{
+    transition: 0.4s;
+}
+.closeButton:hover{
+    background-color: rgb(192, 192, 192);
+}
+
+#cartProduct{
+    background-color: #130701;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
