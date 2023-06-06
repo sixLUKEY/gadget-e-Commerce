@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 i{
     color: #53DDDF;
 }
@@ -7,7 +6,7 @@ footer {
     background-color:#33658A;
 }
 a{
-    text-decoration: none;
+    text-decoration: none!important;
 }
 .custom-btn {
     text-decoration:none;
@@ -28,10 +27,9 @@ a{
     background-color:white;
     color:#52c5bd;
     opacity:1;
-=======
+}
 *{
    box-sizing: border-box;
-}::-webkit-scrollbar {
-    display: none; 
->>>>>>> 152a186ca68a022a1cf6d7752c24a61bc8b1e5b2
 }
+::-webkit-scrollbar {
+    display: none;}
