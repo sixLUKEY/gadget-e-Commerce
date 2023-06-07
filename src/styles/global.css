@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #130701;
+    background-color: #000000;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -96,7 +96,7 @@ nav{
 }
 
 .modalButtonClose:hover{
-    background-color: #130701;
+    background-color: #000000;
     color: white;
     scale: 1.1;
     filter: drop-shadow(-2px 4px 5px #00000088);
@@ -109,11 +109,41 @@ nav{
     background-color: rgb(192, 192, 192);
 }
 
-#cartProduct{
-    background-color: #130701;
+.cartProduct{
+    background-color: #000000;
     padding: 10px;
     color: white;
     border-radius: 10px;
     padding-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .list > ul > li > a{
+        font-size: 1rem !important;
+
+    }
+
+    .list > ul{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .list > ul > li > a{
+        font-size: 0.7rem !important;
+
+    }
+
+    .list > ul{
+        flex-wrap: wrap;
+    }
+
+    nav{
+        padding-inline: 0px !important;
+    }
+
+    .modal-content{
+        width: 290px !important;
+    }
 }
 
