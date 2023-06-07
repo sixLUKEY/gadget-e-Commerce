@@ -2,7 +2,11 @@
     box-sizing: border-box;
  }
  ::-webkit-scrollbar {
-     display: none;}
+     display: none;
+    }
+body {
+    height:100vh;
+}
 i{
     color: #53DDDF;
 }
