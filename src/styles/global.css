@@ -48,7 +48,6 @@ nav{
     width: 45px;
     transition: 0.4s;
 }
-
 .cart:hover{
     background-color: #53DDDF !important;
 }
